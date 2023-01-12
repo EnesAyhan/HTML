@@ -1,0 +1,40 @@
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.menü{
+    background-color: rgb(189, 183, 183);
+    text-align: left;
+    width: 200px;
+    list-style-type: "➡️";
+    list-style-position: outside;
+    padding: 0%;
+}
+
+.menü a{
+    text-decoration: none; /*Bağlantı taglarının altındaki çizgiyi kaldırır */
+    color: black;
+
+}
+
+.menü li:hover{
+    background-color: rgb(85, 84, 84);
+    /*  Üzerine geldiğimiz bağlantının rengini satır boyunca değiştirir */
+
+}
+
+.menü li:hover a{
+    color: white;
+    /*li'nin boyutunca üzerine geldiğimizde a tagı içinde bulunan metni beyaz yapar */
+    font-size: 1.3rem; /* yazının üzerine geldiğimizde yazı büyür*/
+}
+
+.aktif{
+    background-color: rgb(94, 93, 93);
+    color: white;
+}
+
+.aktif a{
+    background-color: rgb(94, 93, 93);
+    color: white;
+}
