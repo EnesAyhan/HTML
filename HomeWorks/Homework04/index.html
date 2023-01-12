@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="kayit/server.js" method="post">
+      <table>
+        <tr>
+          <td>
+            <label for="eposta">Eposta </label>
+          </td>
+          <td colspan="2"><input type="text" id="eposta" /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><label for="sifre">Şifre</label></td>
+          <td colspan="2">
+            <input
+              type="password"
+              id="sifre"
+              placeholder="Sifrenizi Giriniz"
+              minlength="5"
+              maxlength="15"
+            />
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><label for="guvenlik">Güvenlik Kodu</label></td>
+          <td colspan="2"><input type="text" id="guvenlik" /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><input type="submit" value="Kaydet" /></td>
+          <td><input type="reset" value="Temizle" /></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
