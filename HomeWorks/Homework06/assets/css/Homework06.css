@@ -3,7 +3,7 @@
     color: white;
 }
 .table{
-    width: 700px;
+    width: 600px;
     height: 300px;
 }
 .tfoot{
@@ -19,17 +19,19 @@
 }
 
 .button1{
-    padding: 5px 5px;
+    float: right;
+    padding: 2px 2px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 5px;
     width: 200px;
     background-color: rgb(227, 22, 22);
 }
 .button2{
-    padding: 5px 5px;
+    float: right;
+    padding: 2px 2px;
     text-align: center;
-    margin-top: 10px;
-    width: 150px;
+    margin-top: 5px;
+    width: 170px;
     background-color: rgb(227, 22, 22);
 
 }
@@ -39,5 +41,20 @@
 
 .aratoplam{
     text-align: right;
+}
+
+.ikon{
+    
+    margin-top: 2px 2px;
+}
+
+.birimfiyat{
+    text-align: right;
+}
+.urunadı{
+    width: 200px;
+}
+.aratoplam{
+    width: 100px;
 }
 
