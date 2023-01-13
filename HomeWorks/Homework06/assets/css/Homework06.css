@@ -1,0 +1,43 @@
+.thead{
+    background-color: rgb(62, 60, 60);
+    color: white;
+}
+.table{
+    width: 700px;
+    height: 300px;
+}
+.tfoot{
+    background-color: rgb(62, 60, 60);
+    color: white;
+    text-align: right;
+}
+.teksatır{
+    background-color: rgb(180, 175, 175);
+}
+.ciftsatır{
+    background-color: rgb(208, 202, 202);
+}
+
+.button1{
+    padding: 5px 5px;
+    text-align: center;
+    margin-top: 10px;
+    width: 200px;
+    background-color: rgb(227, 22, 22);
+}
+.button2{
+    padding: 5px 5px;
+    text-align: center;
+    margin-top: 10px;
+    width: 150px;
+    background-color: rgb(227, 22, 22);
+
+}
+.miktar{
+    text-align: center;
+}
+
+.aratoplam{
+    text-align: right;
+}
+
