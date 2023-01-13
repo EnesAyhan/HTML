@@ -1,0 +1,23 @@
+.menu ul{
+    list-style: none;
+    /* listenin başındaki nokta işaretlerini kaldırır */
+}
+
+.menu li{
+    
+    display: inline-block;
+    /*hem block hem inline özellikler gösteren bir element haline döner*/
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(253, 169, 169);
+    border-radius: 10px;
+
+}
+
+.menu a:hover{
+    background-color: rgb(235, 135, 35);
+    color: white;
+}
