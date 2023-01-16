@@ -1,0 +1,15 @@
+.textbox{
+    display: inline-block;
+    position: relative;
+}
+.textbox .fa-search{
+    position: absolute;
+    right: 5px;
+    top: 2px;
+}
+
+.textbox input{
+    padding-right: 25px;
+    border: 2px solid red;
+    border-radius: 20px;
+}
