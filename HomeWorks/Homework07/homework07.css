@@ -1,0 +1,21 @@
+.arkaplan{
+    background-image: url(isparta.jpg);
+    width: 600px;
+    height: 200px;
+    border-color: rgb(21, 14, 21);
+    border: 2px solid rgb(182, 72, 182);
+    background-repeat:no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.arkaplan div{
+     display: inline-block;
+    color:rgb(128, 124, 0);
+    position: absolute;
+    font-size: 20px;
+    right: 120px;
+    top: 50px;
+   
+}
+

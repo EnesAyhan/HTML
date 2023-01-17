@@ -1,0 +1,12 @@
+.kutu{
+    width: 80px;
+    height: 80px;
+    background-color: blueviolet;
+    border: 1px solid black;
+    text-align:center;
+}
+.kutular{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
